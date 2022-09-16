@@ -35,7 +35,7 @@ signin.addEventListener('click', (e) => {
       // alert(user.displayName)
       var name1=user.displayName;
       if (user) {
-        window.location = "https://github.com/Vedant-314/Student-Buddy/blob/main/StudentP.html";
+        window.location = "https://vedant-314.github.io/Student-Buddy/index.html";
         alert("Welcome " + user.displayName)
 
       }
