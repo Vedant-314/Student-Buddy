@@ -1,0 +1,123 @@
+body{
+    margin: 0 0;
+    padding: 0 0;
+    background-color: #fdf3ae;
+}
+
+.top{
+    border:2px solid red;
+    text-align: center;
+    background-color: black;
+}
+
+.nav a{
+    text-decoration: none;
+    color: white;
+    margin: 10px 10px;
+    padding: 10px;
+}
+
+.top p{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.nav a:hover{
+    color: blue;
+}
+
+.top h2{
+    font-family: cursive;
+    font-size: 30px;
+    color: white;
+}
+.container{
+    border: 2px solid red;
+    height:500px;
+    width: 100%;
+}
+
+.container h3{
+    text-align: center;
+    font-family: cursive;
+    font-size: 25px;
+}
+
+.container p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    text-align: center;
+}
+
+.video1{
+    /* border: 2px solid red; */
+    height: 200px;
+    display: inline-block;
+    width: 350px;
+    margin: 16px 10px;
+}
+.video2{
+    /* border: 2px solid red; */
+    height: 200px;
+    display: inline-block;
+    
+    width: 350px;
+    margin: 16px 10px;
+}
+.video3{
+    /* border: 2px solid red; */
+    height: 200px;
+    /* display: inline-block; */
+    width: 350px;
+    float: right;
+    margin: 16px 10px;
+}
+
+.video4{
+    /* border: 2px solid red; */
+    height: 200px;
+    /* display: inline-block; */
+    width: 350px;
+    float: right;
+    margin: 16px 10px;
+}
+.containerM{
+    border: 2px solid white;
+    width: 100%;
+    height: 500px;
+    display: block;
+}
+
+.containerM h3{
+    text-align: center;
+    font-family: cursive;
+    font-size: 25px;
+}
+
+.containerM p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    text-align: center;
+}
+.containerQ{
+    border: 2px solid white;
+    width: 100%;
+    height: 600px;
+    display: block;
+}
+
+.containerQ h3{
+    text-align: center;
+    font-family: cursive;
+    font-size: 25px;
+}
+
+.containerQ ul{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.containerQ p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    text-align: center;
+}

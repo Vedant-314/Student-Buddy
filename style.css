@@ -1,0 +1,144 @@
+
+body{
+    background-color: #fdf3ae;
+    margin: 0;
+    padding: 0;
+    background: url(background.jpg);    
+    background-size:cover;      
+    background-repeat: no-repeat; 
+    
+}
+.left{
+    background-color: #fdf3ae;     
+    display: inline-block;
+    position:absolute;
+    left: 20px;
+    top: 30px;
+}
+.empty{
+    display: block;
+    height: 510px;
+}
+.left img{
+    width: 100px;    
+    margin-left: 50px;
+    padding: 0px;    
+    top: 30px;
+    align-items: center;
+    
+    display: block;
+}
+
+.heading{
+    font-family: 'Rubik Marker Hatch', cursive;
+    line-height: 0;
+    font-size: 25px;
+    margin: 30px 10px;
+    line-height: 5px;
+    text-align: center;
+}
+
+.right{
+    display: inline-block;    
+    position: absolute;
+    padding: 10px 10px;
+    margin: 0px 10px;
+    right: 10px;
+    top: 30px;
+}
+
+
+.navbar li a{
+    font-family: 'Patrick Hand', cursive;
+    text-decoration: none;
+    font-size: 20px;
+}
+.navbar li a:hover{
+    text-decoration: underline;
+}
+.btn{
+    font-family: 'Patrick Hand', cursive;
+    padding: 10px 10px;
+    margin: 10px 10px;
+    color: black;
+    background-color: #fdf3ae;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+
+.btn:hover{
+    background-color: white;
+    cursor: pointer;
+}
+
+.mid{
+    display: block;
+    margin: 30px auto;    
+    width: 60%;
+}
+
+.mid li{
+    display: inline-block;
+    
+    margin: 30px 20px;
+    padding: 10px 10px;
+}
+
+.container{
+    border: 2px solid yellow;
+    border-radius: 10px;
+    display: block;
+    margin: 0px auto;    
+    padding: 10px 10px;
+    background-color: white;
+    
+}
+
+.container p{
+    font-family: 'Overpass', sans-serif;
+    font-size: 25px;
+    height: 200px;
+    text-align: justify;    
+    position: relative;
+    display: block;
+}
+.container h2{
+    font-family: 'Mouse Memoirs', sans-serif;
+    text-align: center;
+    display: block;    
+    font-size: 60px;
+}
+.footer{    
+    text-align: center;
+    display: block;
+    width: 100%;
+    margin: 0px auto;
+    height: 150px;
+    background-color: black;
+    position: absolute;
+}
+#contact a{
+    font-family: 'Patrick Hand', cursive;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    margin: 15px 10px;
+    padding: 20px 10px;
+    text-decoration:none ;
+}
+
+.copyright{
+    font-family: 'Patrick Hand', cursive;
+    font-size: 20px;
+    color: white;
+}
+.fa {
+    padding: 20px;
+    margin: 10px 10px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+
